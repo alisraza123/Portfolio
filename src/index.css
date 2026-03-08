@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: var(--bg-primary);
+  --color-light: var(--text-main);
+}
+
+@layer base {
+  :root {
+    --bg-primary: #ffffff;   /* Light mode background */
+    --text-main: #134f5c;    /* Light mode text */
+    --bg-button: #134f5c;     /* Light mode button background */
+    --icon-filter: grayscale(100%); /* Light mode: Black & White */
+    --description-color: #45818e; /* Darker teal for descriptions in light mode */
+  }
+
+  .dark {
+    --bg-primary: #01151a;   /* Dark mode background */
+    --text-main: #ffffff;    /* Dark mode text */
+    --bg-button: #012d37;     /* Dark mode button background */
+    --icon-filter: grayscale(0%); /* Dark mode: Full color */
+    --description-color: #ffffff5b; /* Light greenish/teal for descriptions in dark mode */
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+    transition: background-color 0.5s ease;
+  }
+}body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
