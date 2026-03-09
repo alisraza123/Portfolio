@@ -6,7 +6,6 @@ const Hero = ({ startAnim }) => {
   const containerRef = useRef(null);
   const arrowRef = useRef(null);
   const rotatingTextRef = useRef(null);
-  X;
 
   useEffect(() => {
     if (!startAnim) return;
