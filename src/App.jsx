@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import IconGallery from './components/IconGallery'
+import AboutMe from './AboutMe'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <IconGallery />
+      <AboutMe />
     </div>
   )
 }
