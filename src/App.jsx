@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import IconGallery from './components/IconGallery'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
+import WhyChooseMe from './components/WhyChoose'
+import WhyChoose from './components/WhyChoose'
 const App = () => {
   return (
     <div className='text-red-500 text-2xl'>
@@ -12,6 +14,7 @@ const App = () => {
       <IconGallery />
       <AboutMe />
       <Projects />
+      <WhyChoose />
     </div>
   )
 }
