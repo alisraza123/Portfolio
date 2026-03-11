@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import WhyChooseMe from './components/WhyChoose'
 import WhyChoose from './components/WhyChoose'
+import Contact from './components/Contact'
 const App = () => {
   return (
     <div className='text-red-500 text-2xl'>
@@ -15,6 +16,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <WhyChoose />
+      <Contact/>
     </div>
   )
 }
