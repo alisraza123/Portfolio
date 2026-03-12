@@ -7,9 +7,11 @@ import Projects from './components/Projects'
 import WhyChooseMe from './components/WhyChoose'
 import WhyChoose from './components/WhyChoose'
 import Contact from './components/Contact'
+import CustomCursor from './components/CustomCursor'
 const App = () => {
   return (
     <div className='text-red-500 text-2xl'>
+      <CustomCursor/>
       <Navbar />
       <Hero />
       <IconGallery />
